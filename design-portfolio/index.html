@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- МЕТА -->
+  <title>Заголовок</title>
+  <meta name="description" content="описание не длиннее 155 символов">
+  <meta name="keywords" content="мета-теги, шаблон, html, css">
+
+  <!-- Контролирует поведение поисковых систем при индексации страницы -->
+  <meta name="robots" content="index,follow,noodp"><!-- Все поисковые системы -->
+  <meta name="googlebot" content="index,follow"><!-- Указание отдельно для Google -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,400,400i,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="/design-portfolio/dist/css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="#">
+            <img class="nav__photo" src="/design-portfolio/dist/img/avatar_photo.png" alt="#">
+          </a>
+          <p class="nav__name">Lewis<br>Nathaniel<span class="nav__prof">UI & UX Designer</span></p>
+        </div>
+
+        <!-- Main Navigation -->
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#work">work</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about">about me</a></li>
+          <li class="nav__item"><a class="nav__link" href="#blog">blog</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">contact</a></li>
+          <li class="nav__item"><a class="btn btn--nav" href="#">hire me</a></li>
+        </ul>
+
+        <!-- Burger Menu Button -->
+        <button class="burger-menu" type="button">
+          <span class="burger-menu__lines"></span>
+        </button>
+
+        <!-- Mobile Navigation -->
+        <ul class="mobile-nav__list">
+          <li class="mobile-nav__item"><a class="nav__link mobile-nav--link" href="#work">work</a></li>
+          <li class="mobile-nav__item"><a class="nav__link mobile-nav--link" href="#about">about me</a></li>
+          <li class="mobile-nav__item"><a class="nav__link mobile-nav--link" href="#blog">blog</a></li>
+          <li class="mobile-nav__item"><a class="nav__link mobile-nav--link" href="#">contact</a></li>
+          <li class="mobile-nav__item"><a class="btn btn--nav" href="#">hire me</a></li>
+        </ul>
+
+      </nav> <!-- /.nav -->
+
+    </div> <!-- /.container -->
+  </header> <!-- /.header -->
+
+  <section class="intro">
+    <div class="container">
+      <div class="intro__inner">
+
+        <div class="intro__about">
+
+          <h1 class="intro__title"><span>Hello, I’m</span>Lewis Nathaniel</h1>
+          <p class="intro__subtitle">UI & UX Designer</p>
+
+          <div class="intro__social">
+            <a class="intro__social-link intro__social-link--behance" href="#"><i class="fab fa-behance"></i></a>
+            <a class="intro__social-link intro__social-link--dribble" href="#"><i class="fab fa-dribbble"></i></a>
+            <a class="intro__social-link intro__social-link--linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="intro__social-link intro__social-link--facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="intro__social-link intro__social-link--instagram" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="intro__social-link intro__social-link--twitter" href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+
+          <div class="intro__buttons">
+            <a class="btn btn__primary" href="#">hire me</a>
+            <a class="btn btn__secondary" href="#">see my resume</a>
+          </div>
+
+        </div> <!-- /.intro__about -->
+
+      </div> <!-- /.intro__inner -->
+    </div> <!-- /.container -->
+  </section> <!-- /.section -->
+
+  <section class="project" id="work">
+    <div class="container">
+
+      <h2 class="project__title">My projects</h2>
+
+      <div class="project__filter">
+        <ul class="project__links">
+          <li class="project__links-item"><a class="project__link" href="#">All</a></li>
+          <li class="project__links-item"><a class="project__link" href="#">App</a></li>
+          <li class="project__links-item"><a class="project__link" href="#">Website</a></li>
+          <li class="project__links-item"><a class="project__link" href="#">Interaction</a></li>
+        </ul>
+
+        <ul class="project__list">
+
+          <!-- Class moreBox look at main.js -->
+
+          <li class="project-item moreBox">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox" style="display: none;">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox" style="display: none;">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox" style="display: none;">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox" style="display: none;">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox" style="display: none;">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+          <li class="project-item moreBox" style="display: none;">
+            <div class="project-item__pic">
+              <a class="project-item__link" href="#">
+                <img class="project-item__img" src="https://place-hold.it/370x300" alt="#">
+              </a> <!-- /.project-item__link -->
+            </div>
+            <div class="project-item__content">
+              <a class="project-item__category" href="#">Category</a>
+              <div class="project-item__info">
+                <p class="project-item__title">Project title</p>
+                <p class="project-item__date">2019</p>
+              </div>
+            </div>
+          </li> <!-- /.project-item -->
+
+        </ul> <!-- /.project__list -->
+
+        <div class="project__wrap">
+          <button class="btn btn__project" type="button" id="loadMore">Load more work</button>
+        </div>
+
+      </div> <!-- /.project__filter -->
+
+    </div> <!-- /.container -->
+  </section> <!-- /.project -->
+
+  <section class="about" id="about">
+    <div class="container">
+
+      <div class="about__inner">
+
+        <img class="about__img" src="/design-portfolio/dist/img/about-bg.png" alt="#">
+        <div class="about__content">
+          <h2 class="about__title">about me</h2>
+          <h3 class="about__subtitle">who am i</h3>
+
+          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim
+            eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem,
+            elementum consequat est consequat eu. Quisque aliquet a ipsum nec tincidunt. Nulla vitae rhoncus leo.
+            Praesent dui sapien, bibendum quis tempus dictum, auctor ac dui. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Donec at mauris porta, ullamcorper sem quis, lobortis sem.
+            Donec sit amet aliquet dui, at varius est. Phasellus porttitor finibus neque vel vehicula. Duis in nulla
+            egestas, dignissim elit at, imperdiet eros. Integer tristique posuere purus. Suspendisse placerat, quam
+            vitae ullamcorper sollicitudin, dui ligula molestie massa, sit amet laoreet nibh ex vitae dui. Aenean
+            laoreet pellentesque lacus, eget varius massa mattis quis. Nunc ultrices urna eu nunc lobortis pulvinar.
+            Duis viverra, quam non imperdiet scelerisque, urna nunc consequat velit, in mollis erat nibh in libero.</p>
+
+          <div class="about__buttons">
+            <a class="btn btn__primary" href="#">hire me</a>
+            <a class="btn btn__secondary" href="#">see my resume</a>
+          </div>
+        </div> <!-- /.about__content -->
+
+      </div> <!-- /.about__inner -->
+
+    </div> <!-- /.container -->
+  </section> <!-- /.about -->
+
+  <section class="review">
+    <div class="container">
+
+      <ul class="review__list">
+        <li class="review__item">
+          <p class="review__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque eu enim eget luctus. Sed
+            augue
+            felis, facilisis et elementum vitae, aliquam sit amet ante. Sed iaculis eros sem, elementum consequat est
+            consequat eu. Quisque aliquet a ipsum nec tincidunt. Nulla vitae rhoncus leo. Praesent dui sapien, bibendum
+            quis
+            tempus dictum.
+          </p>
+          <div class="review__box">
+            <div class="review__pic">
+              <img class="review__img" src="https://place-hold.it/95x95" alt="#">
+            </div>
+            <p class="review__name">Edward M. Brooks</p>
+            <p class="review__company">Marketing House</p>
+            <div class="review__rate">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+        </li> <!-- /.review__item -->
+      </ul> <!-- /.review__list -->
+
+    </div> <!-- /.container -->
+  </section> <!-- /.review -->
+
+  <section class="blog" id="blog">
+    <div class="container">
+
+      <h2 class="blog__title">Read me</h2>
+      <h3 class="blog__subtitle">Sometimes i write something smart</h3>
+
+      <ul class="blog__list">
+
+        <li class="blog__item">
+          <div class="blog__pic">
+            <a href="#">
+              <img class="blog__img" src="https://place-hold.it/370x257" alt="#">
+              <div class="blog__date">
+                <p class="blog__date-text">10<br>june</p>
+              </div>
+            </a>
+          </div>
+          <p class="blog__item-title"><a href="#">Ten the best app in 2017</a></p>
+          <p class="blog__item-subtitle"><a class="blog__item-link" href="#">Category</a></p>
+          <p class="blog__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante.
+            Sed iaculis eros sem, elementum consequat.</p>
+          <a class="btn btn__blog" href="#">Read more</a>
+        </li> <!-- /.blog__item -->
+
+        <li class="blog__item">
+          <div class="blog__pic">
+            <a href="#">
+              <img class="blog__img" src="https://place-hold.it/370x257" alt="#">
+              <div class="blog__date">
+                <p class="blog__date-text">15<br>june</p>
+              </div>
+            </a>
+          </div>
+          <p class="blog__item-title"><a href="#">Website inspiration</a></p>
+          <p class="blog__item-subtitle"><a class="blog__item-link" href="#">Category</a></p>
+          <p class="blog__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante.
+            Sed iaculis eros sem, elementum consequat.</p>
+          <a class="btn btn__blog" href="#">Read more</a>
+        </li> <!-- /.blog__item -->
+
+        <li class="blog__item">
+          <div class="blog__pic">
+            <a href="#">
+              <img class="blog__img" src="https://place-hold.it/370x257" alt="#">
+              <div class="blog__date">
+                <p class="blog__date-text">20<br>june</p>
+              </div>
+            </a>
+          </div>
+          <p class="blog__item-title"><a href="#">Changes in social media</a></p>
+          <p class="blog__item-subtitle"><a class="blog__item-link" href="#">Category</a></p>
+          <p class="blog__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+            pellentesque eu enim eget luctus. Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante.
+            Sed iaculis eros sem, elementum consequat.</p>
+          <a class="btn btn__blog" href="#">Read more</a>
+        </li> <!-- /.blog__item -->
+
+      </ul> <!-- /.blog__list -->
+
+      <div class="blog__wrap">
+        <a class="blog__link-more" href="#">See more posts</a>
+      </div>
+
+    </div> <!-- /.container -->
+  </section> <!-- /.blog -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__inner">
+        <div class="footer__box">
+          <p class="footer__copyright">Free Templates</p>
+
+          <div class="footer__social">
+            <a class="footer__social-link footer__social--behance" href="#"><i class="fab fa-behance"></i></a>
+            <a class="footer__social-link footer__social--dribble" href="#"><i class="fab fa-dribbble"></i></a>
+            <a class="footer__social-link footer__social--linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="footer__social-link footer__social--facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="footer__social-link footer__social--instagram" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="footer__social-link footer__social--twitter" href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <ul class="footer__list">
+          <li class="footer__item"><a class="footer__link" href="#">Work</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">About me</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Contact</a></li>
+          <li class="footer__item"><a class="btn btn--footer" href="#">Hire me</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/design-portfolio/dist/js/main.min.js"></script>
+</body>
+
+</html>
