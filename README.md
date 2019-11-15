@@ -2,7 +2,7 @@
 
 1. Личный проект на JavaScript. Money Manager v1.0
 Применил в проекте: HTML5, CSS3, JavaScript (ES5, ES6)
-Сссылка на проект://romanfd.github.io/money-manager/<br>
+Сссылка на проект - https://romanfd.github.io/money-manager/<br>
 Ссылка на исходник - https://github.com/romanfd/romanfd.github.io/tree/master/money-manager
 
 <hr>
