@@ -1,5 +1,13 @@
 Роман Охрименко, моё портфолио.
 
+<hr>
+
+Frontend - freelancer project<br>
+Применил в проекте: <b>HTML5, CSS3, JavaScript(ES6)</b><br>
+Сссылка на проект - https://romanfd.github.io/freelancer/<br>
+
+<hr>
+
 Бесплатный шаблон, макет в figma<br>
 Применил в проекте: <b>HTML5, SCSS, CSS анимацию, Flexbox, jQuery, БЭМ, Gulp, Slick carousel</b><br>
 Сссылка на лендинг - https://romanfd.github.io/serf-camp/<br>
