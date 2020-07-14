@@ -2,6 +2,12 @@
 
 <hr>
 
+Frontend - online marketplace project<br>
+Применил в проекте: <b>HTML5, CSS3, JavaScript(ES6)</b><br>
+Сссылка на проект - https://romanfd.github.io/marketplace/<br>
+
+<hr>
+
 Frontend - moneyCalc project<br>
 Применил в проекте: <b>HTML5, CSS3, JavaScript(ES6)</b><br>
 Сссылка на проект - https://romanfd.github.io/moneyCalc/<br>
