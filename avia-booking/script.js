@@ -11,7 +11,7 @@ const formSearch = document.querySelector('.form-search'),
 // --------------------------------------------------------------------
 
 const citiesDB = 'dataBase/cities.json';
-const calendar = 'http://min-prices.aviasales.ru/calendar_preload';
+const calendar = 'https://min-prices.aviasales.ru/calendar_preload';
 
 const maxCount = 10;
 
