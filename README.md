@@ -1,21 +1,26 @@
 Роман Охрименко, моё портфолио.
+<hr>
+
+Frontend - avia-booking project<br>
+Применил в проекте: <b>JavaScript(ES6) / API, HTML5, CSS3,</b><br>
+Сссылка на проект - https://romanfd.github.io/avia-booking/<br>
 
 <hr>
 
 Frontend - online marketplace project<br>
-Применил в проекте: <b>HTML5, CSS3, JavaScript(ES6)</b><br>
+Применил в проекте: <b>JavaScript(ES6), HTML5, CSS3</b><br>
 Сссылка на проект - https://romanfd.github.io/marketplace/<br>
 
 <hr>
 
 Frontend - moneyCalc project<br>
-Применил в проекте: <b>HTML5, CSS3, JavaScript(ES6)</b><br>
+Применил в проекте: <b>JavaScript(ES6), HTML5, CSS3</b><br>
 Сссылка на проект - https://romanfd.github.io/moneyCalc/<br>
 
 <hr>
 
 Frontend - freelancer project<br>
-Применил в проекте: <b>HTML5, CSS3, JavaScript(ES6)</b><br>
+Применил в проекте: <b>JavaScript(ES6), HTML5, CSS3</b><br>
 Сссылка на проект - https://romanfd.github.io/freelancer/<br>
 
 <hr>
