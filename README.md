@@ -8,7 +8,7 @@ Frontend - Личный блог<br>
 
 Применил в проекте: <b>JS(ES6), Webpack, Babel, Firebase, HTML5, CSS3</b><br>
 
-Ссылка на firebase - <a href="https://faq-blog-js.firebaseapp.com/" target="_blank">https://faq-blog-js.firebaseapp.com/</a>
+<a href="https://faq-blog-js.firebaseapp.com/">Ссылка на на проект в firebase</a> - https://faq-blog-js.firebaseapp.com/ <br>
 Ссылка на проект - https://romanfd.github.io/faq-blog-js/<br>
 
 <hr>
