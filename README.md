@@ -3,9 +3,14 @@
 <hr>
 
 React - Todo App<br>
-
-Ссылка на проект <a href="https://react-todo-app-five.vercel.app/" target="_blank">https://react-todo-app-five.vercel.app/</a><br>
+Ссылка на проект - <a href="https://react-todo-app-five.vercel.app/" target="_blank">https://react-todo-app-five.vercel.app/</a><br>
 Ссылка на исходник - <a href="https://github.com/romanfd/react-todo-app" target="_blank">https://github.com/romanfd/react-todo-app</a>
+
+<hr>
+
+React - Calc App<br>
+Ссылка на проект - <a href="https://react-calc-app.vercel.app/" target="_blank">https://react-calc-app.vercel.app/</a><br>
+Ссылка на исходник - <a href="https://github.com/romanfd/react-calc-app" target="_blank">https://github.com/romanfd/react-calc-app</a>
 
 <hr>
 
