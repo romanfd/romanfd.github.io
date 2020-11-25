@@ -1,4 +1,15 @@
-Роман Охрименко, моё портфолио.
+Роман Охрименко. Портфолио.
+
+<hr>
+
+React проект по созданию тестов из курса по React<br>
+Авторизация через firebase.<br>
+Тестовый логин: test@test.ru / пароль: 123456<br>
+
+Стек - React, react-router, Redux, react-redux, redux-thunk, axios, firebase<br>
+
+Ссылка на проект - <a href="https://react-quiz-a152c.web.app/" target="_blank">https://react-quiz-a152c.web.app/</a><br>
+Ссылка на исходник - в процессе<br>
 
 <hr>
 
