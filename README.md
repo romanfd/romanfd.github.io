@@ -9,7 +9,7 @@ React проект по созданию тестов из курса по React
 Стек - React, react-router, Redux, react-redux, redux-thunk, axios, firebase<br>
 
 Ссылка на проект - <a href="https://react-quiz-a152c.web.app/" target="_blank">https://react-quiz-a152c.web.app/</a><br>
-Ссылка на исходник - в процессе<br>
+Ссылка на исходник - <a href="https://github.com/romanfd/react-quiz-app" target="_blank">https://github.com/romanfd/react-quiz-app</a><br>
 
 <hr>
 
